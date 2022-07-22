@@ -1,3 +1,23 @@
+.mpp-subscriptions--body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.mpp-subscriptions--body::after {
+  content: "";
+  flex: auto;
+}
+
+.mpp-card-multiselect {
+    border-radius: 10px !important;
+    box-shadow: none !important;
+    flex: 0 0 30%;
+}
+
+
+
 .mpp-card-multiselect--image {
     display: none !important;
 }
