@@ -1,7 +1,3 @@
-:root {
-    --card-primaryColor: #77be43 !important;
-}
-
 .mpp-subscriptions--body {
     display: flex;
     justify-content: space-between;
@@ -38,7 +34,7 @@
 }
 
 .mpp-card-multiselect--checkbox span {
-    border: 1px solid var(--card-checkboxDefaultColor);
+    border: 1px solid #77be43;
     height: 20px;
     width: 20px;
 }
@@ -48,6 +44,6 @@
 }
 
 .mpp-card-multiselect--checkbox input:checked ~ span {
-    background: var(--card-primaryColor);
-    border-color: var(--card-primaryColor);
+    background: #77be43;
+    border-color: #77be43;
 }
