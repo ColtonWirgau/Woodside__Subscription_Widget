@@ -1,5 +1,5 @@
-:root {
-    --card-primaryColor: #77be43;
+:host {
+    --card-primaryColor: #77be43 !important;
 }
 
 .mpp-subscriptions--body {
