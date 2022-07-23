@@ -1,3 +1,7 @@
+:host {
+    --card-primaryColor: #77be43;
+}
+
 .mpp-subscriptions--body {
     display: flex;
     justify-content: space-between;
@@ -21,3 +25,4 @@
 .mpp-card-multiselect--image, .mpp-subscriptions--header {
     display: none !important;
 }
+
