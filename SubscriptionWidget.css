@@ -33,6 +33,10 @@
     padding: 2%;
 }
 
+.mpp-card-multiselect--text-wrapper {
+    margin: 0;
+}
+
 .mpp-card-multiselect--checkbox span {
     border: 1px solid #77be43;
     height: 20px;
