@@ -62,3 +62,8 @@
     right: 0;
     content: ""
 }
+
+
+.mpp-card-multiselect--title {
+    text-align: center;
+}
