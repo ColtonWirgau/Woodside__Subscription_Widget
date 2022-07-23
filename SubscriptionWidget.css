@@ -67,3 +67,22 @@
 .mpp-card-multiselect--title {
     text-align: center;
 }
+
+
+#subscriptionsForm .mppw-row > :first-child { 
+    display: none !important;
+    height: 0;
+    width: 0;
+}
+
+#subscriptionsForm .mppw-row > :not(:first-child) { 
+    flex: 0;
+}
+
+
+#updateButton {
+    margin: 0;
+    box-shadow: none;
+    background: #77be43;
+    border-radius: 0;
+}
