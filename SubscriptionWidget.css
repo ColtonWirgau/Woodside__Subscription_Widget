@@ -1,4 +1,4 @@
-:host {
+:root {
     --card-primaryColor: #77be43 !important;
 }
 
@@ -26,3 +26,7 @@
     display: none !important;
 }
 
+.mpp-card-multiselect--checkbox input:checked ~ span {
+    background: var(--card-primaryColor);
+    border-color: var(--card-primaryColor);
+}
