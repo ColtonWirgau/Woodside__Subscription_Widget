@@ -51,10 +51,6 @@
     color: #1c2b39;
 }
 
-.mpp-card-multiselect--checkbox:hover ~ .mpp-card-multiselect--text-wrapper{
-    color: #62bb46 !important;
-}
-
 .mpp-card-multiselect--text-wrapper {
     margin: 0;
 }
