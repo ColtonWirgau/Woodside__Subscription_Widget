@@ -81,7 +81,7 @@
     transform: scale(1.05);
 }
 
-.mpp-card-multiselect--checkbox input:checked ~ span::before {
+.mpp-card-multiselect--checkbox input:checked ~ span::before, .mpp-card-multiselect--checkbox:hover input ~ span::before  {
     background: rgba(119, 190, 67, 0.2);
     position: absolute;
     top: 0;
