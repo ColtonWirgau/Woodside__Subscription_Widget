@@ -1,6 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+*/ 
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 .mpp-subscriptions--body {
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 5%;
@@ -20,6 +33,7 @@
     padding: 10px 35px;
 }
 
+
 .mpp-card-multiselect--image, .mpp-subscriptions--header {
     display: none !important;
 }
@@ -34,6 +48,14 @@
 }
 
 .mpp-card-multiselect--text-wrapper {
+    color: #1c2b39;
+}
+
+.mpp-card-multiselect--checkbox:hover ~ .mpp-card-multiselect--text-wrapper{
+    color: #62bb46 !important;
+}
+
+.mpp-card-multiselect--text-wrapper {
     margin: 0;
 }
 
@@ -43,6 +65,7 @@
     width: 20px;
     border-radius: 0;
     margin-top: 8px;
+    transition: transform 0.3s ease-out;
 }
 
 .mpp-card-multiselect--checkbox input:checked ~ span::after {
@@ -55,6 +78,11 @@
 .mpp-card-multiselect--checkbox input:checked ~ span {
     background: #77be43;
     border-color: #77be43;
+}
+
+.mpp-card-multiselect--checkbox:hover span, .mpp-card-multiselect--checkbox:focus span, .mpp-card-multiselect--checkbox:focus-within span {
+    border-color: #77be43;
+    transform: scale(1.05);
 }
 
 .mpp-card-multiselect--checkbox input:checked ~ span::before {
