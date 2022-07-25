@@ -14,20 +14,16 @@
 
 .mpp-subscriptions--body {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 5%;
-}
-
-.mpp-subscriptions--body::after {
-  content: "";
-  flex: auto;
+    gap: min(5%, 25px);
 }
 
 .mpp-card-multiselect {
     border-radius: 10px !important;
     box-shadow: none !important;
-    flex: 0 0 30%;
+    flex: 0 0 max(30%, 240px);
     position: relative;
     border-color: #77be43 !important;
     padding: 10px 35px;
@@ -90,11 +86,17 @@
     content: "";
 }
 
-.mpp-card-multiselect--checkbox input:checked ~ span::before, .mpp-card-multiselect:hover {
+.mpp-card-multiselect--checkbox input:checked ~ span::before {
     background: rgba(119, 190, 67, 0.2) !important;
 }
 
+.mpp-card-multiselect:hover {
+    background: rgba(119, 190, 67, 0.3) !important;
+}
 
+.collapse--label {
+    display: none !important;
+}
 
 #subscriptionsForm .mppw-row > :first-child { 
     display: none !important;
@@ -119,8 +121,4 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 0.9em;
     margin-top: 2em;
-}
-
-.collapse--label {
-    display: none !important;
 }
