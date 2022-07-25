@@ -61,7 +61,7 @@
     width: 20px;
     border-radius: 0;
     margin-top: 8px;
-    transition: transform 0.3s ease-out;
+    transition: transform 0s ease-out;
 }
 
 .mpp-card-multiselect--checkbox input:checked ~ span::after {
