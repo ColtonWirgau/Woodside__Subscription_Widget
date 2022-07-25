@@ -17,16 +17,25 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: min(5%, 25px);
+    gap: 25px;
 }
 
 .mpp-card-multiselect {
     border-radius: 10px !important;
     box-shadow: none !important;
-    flex: 0 0 max(30%, 240px);
+    flex: 0 0 250px;
     position: relative;
     border-color: #77be43 !important;
     padding: 10px 35px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mpp-subscriptions--body::after {
+  content: '';
+  flex: 0 0 250px;
 }
 
 
