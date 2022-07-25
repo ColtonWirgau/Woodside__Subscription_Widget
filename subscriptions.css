@@ -90,9 +90,10 @@
     content: "";
 }
 
-.mpp-card-multiselect--checkbox input:checked ~ span::before {
-    background: rgba(119, 190, 67, 0.2);
+.mpp-card-multiselect--checkbox input:checked ~ span::before, .mpp-card-multiselect:hover {
+    background: rgba(119, 190, 67, 0.2) !important;
 }
+
 
 
 #subscriptionsForm .mppw-row > :first-child { 
