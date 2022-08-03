@@ -16,7 +16,7 @@
 .mpp-card-multiselect {
     border-radius: 10px !important;
     box-shadow: none !important;
-    flex: 0 0 250px;
+    flex: 1 0 250px;
     position: relative;
     border-color: #77be43 !important;
     padding: 10px 35px;
@@ -28,7 +28,7 @@
 
 .mpp-subscriptions--body::after {
   content: '';
-  flex: 0 0 250px;
+  flex: 1 0 250px;
 }
 
 
