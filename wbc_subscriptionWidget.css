@@ -80,7 +80,7 @@
     transform: scale(1.05);
 }
 
-.mpp-card-multiselect--checkbox input ~ span::before {
+#subscriptionsBody .mpp-card-multiselect--checkbox input ~ span::before {
     position: absolute;
     top: 0;
     left: 0;
