@@ -172,9 +172,11 @@
 
 
 
-:not(#subscriptionsBody) .mpp-card-multiselect--checkbox {
+#subscriptionsEmpty+.mppw-row .mpp-card-multiselect--checkbox {
     position: absolute !important;
-    top: 4px;
+    top: 13px;
+    left: 10px;
+    
 }
 
 :not(#subscriptionsBody) .mpp-subscriptions--checkboxlabel {
@@ -185,4 +187,19 @@
     max-width: 300px;
     margin: auto;
     position: relative;
+    border: 1px solid #77be43 !important;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    font-size: 0.85em !important;;
+}
+
+
+#subscriptionsForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#subscriptionsResponded {
+    order: 10;
 }
