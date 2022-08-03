@@ -72,6 +72,7 @@
 .mpp-card-multiselect--checkbox input:checked ~ span {
     background: #77be43;
     border-color: #77be43;
+    
 }
 
 .mpp-card-multiselect--checkbox:hover span, .mpp-card-multiselect--checkbox:focus span, .mpp-card-multiselect--checkbox:focus-within span {
@@ -80,11 +81,11 @@
 }
 
 .mpp-card-multiselect--checkbox input ~ span::before {
-    /*! position: absolute; */
-    /*! top: 0; */
-    /*! left: 0; */
-    /*! bottom: 0; */
-    /*! right: 0; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     content: "";
 }
 
@@ -180,7 +181,7 @@
 }
 
 :not(#subscriptionsBody) .mpp-subscriptions--checkboxlabel {
-    padding-left: 40px;
+    padding-left: 30px;
 }
 
 :not(#subscriptionsBody) .mppw-left {
