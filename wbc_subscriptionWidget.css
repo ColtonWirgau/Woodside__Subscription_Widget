@@ -180,7 +180,7 @@
 }
 
 :not(#subscriptionsBody) .mpp-subscriptions--checkboxlabel {
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 :not(#subscriptionsBody) .mppw-left {
