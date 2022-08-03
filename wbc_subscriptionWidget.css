@@ -80,11 +80,11 @@
 }
 
 .mpp-card-multiselect--checkbox input ~ span::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    /*! position: absolute; */
+    /*! top: 0; */
+    /*! left: 0; */
+    /*! bottom: 0; */
+    /*! right: 0; */
     content: "";
 }
 
@@ -168,4 +168,21 @@
 .mpp-subscriptions--description {
     font-size: 0.7em;
     line-height: 1.6;
+}
+
+
+
+:not(#subscriptionsBody) .mpp-card-multiselect--checkbox {
+    position: absolute !important;
+    top: 4px;
+}
+
+:not(#subscriptionsBody) .mpp-subscriptions--checkboxlabel {
+    padding-left: 30px;
+}
+
+:not(#subscriptionsBody) .mppw-left {
+    max-width: 300px;
+    margin: auto;
+    position: relative;
 }
