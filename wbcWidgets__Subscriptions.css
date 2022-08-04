@@ -111,7 +111,7 @@
 }
 
 
-#updateButton {
+#updateButton, #loginButton  {
     margin: 0;
     box-shadow: none;
     background: #77be43;
