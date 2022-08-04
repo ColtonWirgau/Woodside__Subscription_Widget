@@ -210,4 +210,8 @@
     .mpp-card-multiselect {
         height: 100%;
     }
+
+    #subscriptionsBody {
+        gap: 10px;
+    }
 }
