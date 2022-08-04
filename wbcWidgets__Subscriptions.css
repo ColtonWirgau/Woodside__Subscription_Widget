@@ -111,7 +111,7 @@
 }
 
 
-#updateButton, #loginButton  {
+#updateButton, #loginButton {
     margin: 0;
     box-shadow: none;
     background: #77be43;
@@ -196,12 +196,12 @@
 }
 
 
-#subscriptionsForm {
+#subscriptionsForm, #loginButtonContainer {
     display: flex;
     flex-direction: column;
 }
 
-#subscriptionsResponded {
+#subscriptionsResponded, #mySubscriptionsNotLoggedIn {
     order: 10;
 }
 
