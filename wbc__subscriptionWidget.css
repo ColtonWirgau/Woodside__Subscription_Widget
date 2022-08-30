@@ -4,7 +4,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-
 .mpp-subscriptions--body {
     display: flex;
     justify-content: center;
@@ -111,7 +110,7 @@
 }
 
 
-#updateButton, #loginButton {
+#updateButton, #loginButton, #verfificationButton {
     margin: 0;
     box-shadow: none;
     background: #77be43;
@@ -204,6 +203,14 @@
 #subscriptionsResponded, #mySubscriptionsNotLoggedIn {
     order: 10;
 }
+
+
+
+/* One Click Subscribe */
+.mppw-form-field__label {
+    color: #62BB46 !important;;
+}
+
 
 
 @media only screen and (max-width: 583px) {
