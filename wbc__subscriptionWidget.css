@@ -118,7 +118,9 @@
     text-transform: uppercase;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.9em;
+    font-size: .875rem;
+    line-height: 1em;
+    font-weight: 700;
     margin-top: 2em;
     padding: 11px 10px;
     min-width: 100px;
