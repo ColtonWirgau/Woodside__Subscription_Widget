@@ -222,9 +222,18 @@
 }
 
 .mppw-form-field__control:focus-visible {
-    outline: 3px solid #62bb46;
+    outline: 2px solid #62bb46; 
+    z-index: 10;
+    box-shadow: none;
 }
 
+
+
+.mppw-form-field__control:focus {
+    border-color: #62bb46 !important;;
+    box-shadow: #62bb4673 !important;;
+    padding: 28px 13px 12px 13px;
+}
 
 
 @media only screen and (max-width: 583px) {
