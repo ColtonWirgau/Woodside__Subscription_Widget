@@ -221,6 +221,10 @@
     color: #62BB46 !important;;
 }
 
+.mppw-form-field__control:focus-visible {
+    outline: 3px solid #62bb46;
+}
+
 
 
 @media only screen and (max-width: 583px) {
