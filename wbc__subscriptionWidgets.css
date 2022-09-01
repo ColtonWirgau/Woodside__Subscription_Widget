@@ -224,7 +224,7 @@
 }
 
 .mppw-form-field__control:focus-visible {
-    outline: 2px solid #62bb46; 
+    outline: 0.5px solid #62bb46; 
     z-index: 10;
     box-shadow: none;
 }
