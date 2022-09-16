@@ -145,9 +145,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #gradient > stop {
-    stop-color: red;
+    stop-color: #78e655;
 }
 
-#gradient:first-child {
-    stop-color: purple !important;
+#gradient > stop:first-child {
+    stop-color: #62BB46;
 }
