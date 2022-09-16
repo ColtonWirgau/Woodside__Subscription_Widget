@@ -110,8 +110,12 @@ h1, h2, h3, h4, h5, h6 {
     color: #1C2B39;
 }
 
-.mpp-card--header #title {
+#title {
     display: none;
+}
+
+#description {
+    text-align: center;
 }
 
 .mppw-btn  {
@@ -158,4 +162,49 @@ h1, h2, h3, h4, h5, h6 {
 
 .mpp-pledge-campaign .progress-legend--pledged {
     background: #62BB46;
+}
+
+.mppw-btn.secondary {
+    margin: 0 !important;
+    height: 100%;
+}
+
+#pledgeAmountButtonWrapper {
+    padding: 0;
+}
+
+.form--row {
+    padding: 0;
+    /*! padding-bottom: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mppw-form-field.mppw-form-field__static-container {
+    margin: 0;
+}
+
+#pledgeForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#pledgeForm h2 {
+    display: none;
+}
+
+#pledgeForm h3 {
+    margin-bottom: 3px;
+}
+
+.mppw-right.form--footer.form--row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mppw-right.form--footer.form--row > *:first-child {
+    display: none !important;;
 }
