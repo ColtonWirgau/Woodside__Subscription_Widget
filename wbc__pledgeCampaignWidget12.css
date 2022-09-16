@@ -24,7 +24,7 @@
 	font-family: 'ProximaNova-Semibold', Helvetica, Arial, sans-serif !important;
 }
  
-* :not(#createPledge) :not(.toggle--btn) {
+* :not(#createPledge) :not(.toggle--btn, #createPledge) {
     color: #1C2B39 !important;
 }
 
