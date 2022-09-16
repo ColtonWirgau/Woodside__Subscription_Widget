@@ -212,3 +212,7 @@ h1, h2, h3, h4, h5, h6 {
 .mpp-card--header {
     margin: 0 !important;;
 }
+
+.form--row > .form--col, #pledgeAmountButtonWrapper {
+    height: 60px !important;;
+}
