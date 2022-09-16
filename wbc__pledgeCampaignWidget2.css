@@ -22,6 +22,9 @@
 
 * {
 	font-family: 'ProximaNova-Semibold', Helvetica, Arial, sans-serif !important;
+}
+ 
+* :not(#createPledge) {
     color: #1C2B39 !important;
 }
 
