@@ -143,3 +143,11 @@ h1, h2, h3, h4, h5, h6 {
 .mpp-card--header #title {
     display: none !important;
 }
+
+#gradient > stop {
+    color: red;
+}
+
+#gradient:first-child {
+    color: purple;
+}
