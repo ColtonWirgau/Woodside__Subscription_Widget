@@ -24,7 +24,7 @@
 	font-family: 'ProximaNova-Semibold', Helvetica, Arial, sans-serif !important;
 }
  
-* :not(#createPledge) {
+* :not(#createPledge) :not(.toggle--btn) {
     color: #1C2B39 !important;
 }
 
@@ -219,6 +219,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #alertContainer {
     margin-top: 50px;
+}
+
+.secondary:not(:disabled):not(.disabled).active, .secondary:not(:disabled):not(.disabled):active, .show > .secondary.dropdown-toggle {
+    color: white !important;
 }
 
 @media only screen and (max-width: 600px) {
