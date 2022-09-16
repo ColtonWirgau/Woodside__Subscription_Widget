@@ -247,4 +247,7 @@ h1, h2, h3, h4, h5, h6 {
     .form--row {
         flex: 1 1 100%;
     }
+    .form--col {
+        padding-right: 0 !important;;
+    }
 }
