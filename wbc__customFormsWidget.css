@@ -81,6 +81,15 @@ h1, h2, h3, h4, h5, h6 {
     color: black;
 }
 
+#customForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#submitButton {
+    margin: auto;
+}
+
 @media screen and ( max-width: 1300px ) {
 	.mppw-component-container {
 		width: 90%;
